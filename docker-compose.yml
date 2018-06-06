@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  shoppee:
+    image: ${DOCKER_REGISTRY}shoppee
+    build:
+      context: .
+      dockerfile: Shoppee\Dockerfile
